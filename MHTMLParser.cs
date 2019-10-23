@@ -4,6 +4,8 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Collections.Generic;
  
+namespace MHTMLDecoding
+{
 /// <summary>
 /// HTMLParser is an object that can decode mhtml into ASCII text.
 /// Using getHTMLText() will generate static HTML with inline images. 
@@ -312,4 +314,5 @@ public class MHTMLParser
     {
         return this.log;
     }
+}
 }
